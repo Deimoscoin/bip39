@@ -593,6 +593,16 @@ bitcoinjs.bitcoin.networks.digitalcoin = {
   scriptHash: 0x05,
   wif: 0x9e,
 };
+bitcoinjs.bitcoin.networks.deimos = {
+  messagePrefix: '\x18Deimos Signed Message:\n',
+  bip32: {
+    public: 0x0488B21E,
+    private: 0x0488ADE4,
+  },
+  pubKeyHash: 0x1e,
+  scriptHash: 0x05,
+  wif: 0x8a,
+};
 
 bitcoinjs.bitcoin.networks.ecoin = {
   messagePrefix: '\x18eCoin Signed Message:\n',
