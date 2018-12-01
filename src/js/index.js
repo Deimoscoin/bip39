@@ -1886,6 +1886,13 @@
             },
         },
         {
+            name: "DEI - Deimos",
+            onSelect: function() {
+                network = bitcoinjs.bitcoin.networks.deimos;
+                setHdCoin(20);
+            },
+        },
+	  {
             name: "DGC - Digitalcoin",
             onSelect: function() {
                 network = bitcoinjs.bitcoin.networks.digitalcoin;
