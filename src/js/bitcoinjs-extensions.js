@@ -582,6 +582,16 @@ bitcoinjs.bitcoin.networks.digibyte = {
   scriptHash: 0x05,
   wif: 0x80,
 };
+bitcoinjs.bitcoin.networks.deimos = {
+  messagePrefix: '\x18Deimos Signed Message:\n',
+  bip32: {
+    public: 0x0488B21E,
+    private: 0x0488ADE4,
+  },
+  pubKeyHash: 0x1e,
+  scriptHash: 0x05,
+  wif: 0x8a,
+};
 
 bitcoinjs.bitcoin.networks.digitalcoin = {
   messagePrefix: '\x18Digitalcoin Signed Message:\n',
